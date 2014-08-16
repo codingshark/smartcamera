@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/camera_main_view"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/black">
+
+    <!-- this FrameLayout is used to make the FocusingView 
+    at the center of CameraPreview-->
+    <FrameLayout
+	android:id="@+id/preview_frame"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@color/transparent"
+	android:layout_gravity="center">
+	    <!-- Preview of camera -->
+		<com.test.smartcamera.gui.CameraPreview
+			android:id="@+id/camera_preview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:clickable="true"><!-- OnTouch Even need clickable -->
+		</com.test.smartcamera.gui.CameraPreview>
+		
+		<!-- Focus -->
+		<com.test.smartcamera.gui.FocusingView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_action_locate"
+			android:id="@+id/focusing_view"
+			android:layout_gravity="center">
+		</com.test.smartcamera.gui.FocusingView>
+	
+	</FrameLayout>
+
+	<!-- feature list -->
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left|center_vertical"
+		android:id="@+id/id_feature_list_placeholder">
+	</ScrollView>
+
+	<!-- Session list -->
+	<HorizontalScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|center_horizontal"
+		android:id="@+id/id_session_list_placeholder">
+	</HorizontalScrollView>
+	
+	<!-- Camera control like capture button etc -->
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right|center_vertical"
+		android:id="@+id/id_control_list_placeholder">
+	</ScrollView>
+	
+	<!-- detailed setting menu -->
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/detailed_setting_scroll_view">
+	</ScrollView>
+
+	<FrameLayout 
+	    android:id="@+id/seekbar_placeholder"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center_horizontal"
+		android:layout_marginLeft="100dip"
+		android:layout_marginRight="100dip">
+	</FrameLayout>
+
+	<FrameLayout 
+		android:id="@+id/status_panel_placeholder"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center_horizontal"
+		android:clickable="false" >
+	</FrameLayout>
+
+</FrameLayout>
+

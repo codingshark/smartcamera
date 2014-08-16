@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:insetLeft="1dip"
+	android:insetRight="1dip"
+	android:insetTop="1dip"
+	android:insetBottom="1dip">
+	<selector>
+		<item android:state_pressed="true">
+			<shape>
+			    <solide></solide>
+				<solid android:color="@color/translucent_dark"/>
+				<corners android:radius="10dip" />
+			</shape>
+		</item>
+		<item>
+			<shape>
+				<solid android:color="@color/translucent_dark"/>
+				<corners android:radius="10dip" />
+			</shape>
+		</item>
+	</selector>
+</inset>

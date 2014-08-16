@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- camera features -->
+	<item type="id" name="btn_antibanding_option"/>
+	<item type="id" name="btn_color_effect_option"/>
+	<item type="id" name="btn_flash_option"/>
+	<item type="id" name="btn_focus_option"/>
+	<item type="id" name="btn_scene_option"/>
+	<item type="id" name="btn_white_balance_option"/>
+	<item type="id" name="btn_picture_size_option"/>
+	<item type="id" name="btn_video_size_option"/>
+	<item type="id" name="btn_zoom_option"/>
+	<item type="id" name="btn_exposure_compensation_option"/>
+	<item type="id" name="btn_self_timer_option"/>
+	<item type="id" name="btn_burst_option"/>
+	
+	<!-- camera session -->
+	<item type="id" name="btn_session_professional"/>
+	<item type="id" name="btn_session_auto"/>
+	<item type="id" name="btn_session_settings"/>
+	<item type="id" name="btn_session_gallery"/>
+	
+    <!-- camera control -->
+	<item type="id" name="btn_take_picture"/>
+	<item type="id" name="btn_record_video"/>
+	<item type="id" name="btn_switch_cam"/>
+	
+	<!-- video session control -->
+	<item type="id" name="btn_video_snap"/>
+	<item type="id" name="btn_video_stop"/>
+	
+	<!-- self timer session control -->
+	<item type="id" name="btn_self_timer_cancel"/>
+	
+	<!-- self timer mode settings -->
+	<item type="id" name="btn_self_timer_off"/>
+	<item type="id" name="btn_self_timer_two_seconds"/>
+	<item type="id" name="btn_self_timer_ten_seconds"/>
+	<item type="id" name="btn_self_timer_thirty_seconds"/>
+	
+	<!-- burst mode settings -->
+	<item type="id" name="btn_burst_single_frame"/>
+	<item type="id" name="btn_burst_high_resolution"/>
+	<item type="id" name="btn_burst_high_speed"/>
+</resources>

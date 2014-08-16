@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smartcamera</string>
+	
+    <!-- session -->
+    <string name="session_auto">Auto</string>
+    <string name="session_professional">Pro</string>
+    <string name="session_settings">Settings</string>
+    <string name="session_gallery">Gallery</string>
+    
+	<!-- detailed setting antibanding -->
+	<string name="menu_title_antibanding">Antibanding</string>
+	<string name="menu_antibanding_auto">Auto</string>
+	<string name="menu_antibanding_off">Off</string>
+	<string name="menu_antibanding_50hz">50Hz</string>
+	<string name="menu_antibanding_60hz">60Hz</string>
+	
+	<!-- detailed setting color effect -->
+	<string name="menu_title_color_effect">Color Effect</string>
+	<string name="menu_color_effect_none">None</string>
+	<string name="menu_color_effect_mono">Mono</string>
+	<string name="menu_color_effect_negative">Negative</string>
+	<string name="menu_color_effect_solarize">Solarize</string>
+	<string name="menu_color_effect_sepia">Sepia</string>
+	<string name="menu_color_effect_posterize">Posterize</string>
+	<string name="menu_color_effect_whiteboard">Whiteboard</string>
+	<string name="menu_color_effect_blackboard">Blackboard</string>
+	<string name="menu_color_effect_aqua">Aqua</string>
+	
+	<!-- detailed setting flash -->
+	<string name="menu_title_flash">Flash</string>
+	<string name="menu_flash_on">On</string>
+	<string name="menu_flash_off">Off</string>
+	<string name="menu_flash_auto">Auto</string>
+	<string name="menu_flash_red_eye">Red-eye</string>
+	<string name="menu_flash_torch">Torch</string>
+	
+	<!-- detailed setting focus mode -->
+	<string name="menu_title_focus">Focus Mode</string>
+	<string name="menu_focus_auto">Auto</string>
+	<string name="menu_focus_infinity">Infinity</string>
+	<string name="menu_focus_macro">Macro</string>
+	<string name="menu_focus_fixed">Fixed</string>
+	<string name="menu_focus_edof">Edof</string>
+	<string name="menu_focus_continuous_video">Continuous Video</string>
+	<string name="menu_focus_continuous_picture">Continuous Picture</string>
+	
+	<!-- detailed setting scene mode -->
+	<string name="menu_title_scene">Scene Mode</string>
+	<string name="menu_scene_auto">Auto</string>
+	<string name="menu_scene_action">Action</string>
+	<string name="menu_scene_portrait">Portrait</string>
+	<string name="menu_scene_landscape">Landscape</string>
+	<string name="menu_scene_night">Night</string>
+	<string name="menu_scene_night_portrait">Night Portrait</string>
+	<string name="menu_scene_theatre">Theatre</string>
+	<string name="menu_scene_beach">Beach</string>
+	<string name="menu_scene_snow">Snow</string>
+	<string name="menu_scene_sunset">Sunset</string>
+	<string name="menu_scene_steady_photo">Steady Photo</string>
+	<string name="menu_scene_fireworks">Fireworks</string>
+	<string name="menu_scene_sports">Sports</string>
+	<string name="menu_scene_party">Party</string>
+	<string name="menu_scene_candlelight">Candlelight</string>
+	<string name="menu_scene_barcode">Barcode</string>
+	
+	<!-- detailed setting white balance mode -->
+	<string name="menu_title_white_balance">White Balance</string>
+	<string name="menu_white_balance_auto">Auto</string>
+	<string name="menu_white_balance_incandescent">Incandescent</string>
+	<string name="menu_white_balance_fluorescent">Fluorescent</string>
+	<string name="menu_white_balance_warm_fluorescent">Warm Fluorescent</string>
+	<string name="menu_white_balance_daylight">Daylight</string>
+	<string name="menu_white_balance_cloudy_daylight">Cloudy Daylight</string>
+	<string name="menu_white_balance_twilight">Twilight</string>
+	<string name="menu_white_balance_shade">Shade</string>
+	
+	<!-- CameraIdEntryArray -->
+	<string name="str_camera_id">Camera</string>
+	<string name="str_camera_back">(back)</string>
+	<string name="str_camera_front">(front)</string>
+	
+	<!-- self timer -->
+	<string name="menu_title_self_timer">Self Timer</string>
+	<string name="menu_self_timer_off">Off</string>
+	<string name="menu_self_timer_two_seconds">2s</string>
+	<string name="menu_self_timer_ten_seconds">10s</string>
+	<string name="menu_self_timer_thirty_seconds">30s</string>
+
+	<!-- burst mode -->
+	<string name="menu_title_burst_mode">Burst Mode</string>
+	<string name="menu_burst_single_frame">Single Frame</string>
+	<string name="menu_burst_high_resolution">High Resolution Burst</string>
+	<string name="menu_burst_high_speed">High Speed Burst</string>
+	
+	<!-- detailed setting picture size -->
+	<string name="menu_title_picture_size">Picture Size</string>
+	
+	<!-- detailed setting camera id -->
+	<string name="menu_title_camera_id">Camera Choices</string>
+	
+	<!-- detailed setting video size -->
+	<string name="menu_title_video_size">Video Size</string>
+	
+	<!-- zoom seekbar -->
+	<string name="menu_title_zoom">Zoom</string>
+	<string name="str_default_zoom_value">1X</string>
+	
+	<!-- exposure compensation seekbar -->
+	<string name="menu_title_exposure_compensation">EV</string>
+	<string name="str_default_exposure_compensation_value">0</string>
+	
+	<!-- Dialogs -->
+	<string name="dialog_ok">OK</string>
+	<string name="dialog_low_free_memory">Your memory is full</string>
+	<string name="dialog_max_file_size_reached">Max file size reached. Video Recording is stopped</string>
+	<string name="dialog_max_duration_reached">Max during reached. Video Recording is stopped</string>
+	<string name="dialog_media_recorder_error">Camera error. Video Recording is stopped</string>
+	<string name="dialog_save_photo_error">Photo saving failed</string>
+	<string name="dialog_album_access_error">Cannot access album folder</string>
+	<string name="dialog_camera_access_error">Cannot access camera hardware</string>
+	<string name="dialog_photo_processing_error">Unable to process photo</string>
+	<string name="dialog_video_recording_file_error">Unable to open file for video recording</string>
+	<string name="dialog_low_photo_album_memory">Photo album memory is full</string>
+	<string name="dialog_low_video_album_memory">Video album memory is full</string>
+		
+	<!-- buffer counter view title -->
+	<string name="buffer_counter_view_str_buffer">Buffer</string>
+	
+	<!-- batteryView -->
+	<string name="battery_view_title">Battery: </string>
+	
+	<!-- FlashMemUsageView -->
+	<string name="flash_usage_view_title">Mem: </string>
+	
+	<!-- camera session control -->
+	<string name="cam_session_control_take_picture">Take Picture</string>
+	<string name="cam_session_control_record_view">Record Video</string>
+	<string name="cam_session_control_switch_camera">Switch Camera</string>
+	
+	<!-- video session control -->
+	<string name="vid_session_control_snap">Snap</string>
+	<string name="vid_session_control_stop">Stop</string>
+	
+	<!-- self timer session control -->
+	<string name="self_timer_session_control_cancel">Cancel</string>
+</resources>

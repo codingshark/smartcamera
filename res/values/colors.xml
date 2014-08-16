@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+
+    <color name="translucent_dark">#80000000</color>
+	<color name="translucent_gray">#80505050</color>
+	
+	<color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_gray">#ffa0a0a0</color>
+    
+	<!-- debug color: -->
+	<color name="translucent">#a000a000</color>
+</resources>

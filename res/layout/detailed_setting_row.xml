@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@color/transparent"
+	android:paddingLeft="10dp"
+	android:paddingRight="5dp">
+	<ImageView
+	    android:id="@+id/detailed_setting_row_icon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_action_select_all"
+		android:layout_gravity="left|center_vertical">
+	</ImageView>
+	<TextView
+	    android:id="@+id/detailed_setting_row_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left|center_vertical"
+		android:background="@color/transparent"
+		android:textColor="@color/white"/>
+	<RadioButton
+		android:id="@+id/detailed_setting_row_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:checked="false"
+		android:layout_gravity="right|center_vertical"/>
+</TableRow>

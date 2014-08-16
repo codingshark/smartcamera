@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@color/transparent"
+	android:clickable="true">
+    <ImageButton
+		android:background="@color/transparent"
+		android:id="@+id/view_feature_button"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:paddingTop="10dip"
+		android:paddingBottom="10dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:clickable="false"/>
+	<TextView
+		android:id="@+id/view_feature_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="@color/white"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:visibility="gone"/>
+</LinearLayout>
